@@ -88,5 +88,30 @@
     text-indent: 5%;
  }
 
+.semifatline {
+    height: .3rem;
+    background-color: black;
+}
 
+.thinnerline {
+    height: .05rem;
+    background-color: black;
+}
+
+.thinnergreyline {
+    height: .05rem;
+    background-color: grey;
+}
+
+.thinnerindline {
+    height: .05rem;
+    background-color: black;
+    width: 95%;
+    margin-left: 10px;
+}
+
+.fattergreyline {
+    height: .1rem;
+    background-color: grey;
+}
  
