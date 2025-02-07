@@ -114,4 +114,8 @@
     height: .1rem;
     background-color: grey;
 }
- 
+
+#daily {
+    font-size: 45%;
+    text-align: right;
+}
