@@ -8,10 +8,14 @@
 
 .container{
     border: 2px solid black;
-    width: 300px;
+    width: 250px;
     margin: 3rem auto;
     padding: 5px;
     
+}
+
+.container p{
+    font-size: 60%;
 }
 
 .fatline{
@@ -19,12 +23,32 @@
     background-color: black;
 }
 
-
-.thinline{
-    height: .2rem;
-    background-color: black;
+.tab1{
+   font-size: 60%;
+   width: 100%;
+   table-layout: auto;
+   
 }
 
-.tab1{
-    
+.tab1 th:nth-child(1){
+    text-align: left;
+    white-space: nowrap;
+    padding-top: 10%;
+}
+
+.tab1 th:nth-child(2),
+.tab1 td:nth-child(2) {
+  text-align: center;
+  padding-top: 10%;  
+}
+
+.tab1 th:nth-child(3),
+.tab1 td:nth-child(3) {
+  text-align: right;
+  width: 50px;
+  padding-top: 0;
+}
+
+.thinline{
+    background-color: black;
 }
