@@ -38,7 +38,7 @@
 
 .tab1 th:nth-child(2),
 .tab1 td:nth-child(2) {
-  text-align: center;
+  text-align: right;
   padding-top: 10%;  
 }
 
@@ -50,5 +50,43 @@
 }
 
 .thinline{
+    height: .1rem;
     background-color: black;
 }
+
+.tab2{
+    font-size: 60%;
+    width: 100%;
+    table-layout: auto;
+    
+ }
+ 
+ .tab2 th:nth-child(1){
+     text-align: left;
+     white-space: nowrap;
+ }
+ 
+ .tab2 th:nth-child(2),
+ .tab2 td:nth-child(2) {
+   text-align: right;
+ }
+ 
+ .tab2 th:nth-child(3),
+ .tab2 td:nth-child(3) {
+   text-align: right;
+   width: 50px;
+ }
+ 
+ .greyline{
+     height: .1rem;
+     background-color: grey;
+     width: 95%;
+     margin-left: 10px;
+ }
+
+ .calories {
+    text-indent: 5%;
+ }
+
+
+ 
