@@ -126,3 +126,10 @@ p {
     width: 40%;
     text-indent: 10px;
 }
+
+.lastrow {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+
+}
