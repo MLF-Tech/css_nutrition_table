@@ -58,3 +58,43 @@ p {
     height: .1rem;
     background-color: grey;
 }
+
+.tab1 {
+    display: flex;
+    width: 100%;
+}
+
+.col1 {
+    width: 70%;
+    align-self: flex-end; 
+}
+
+.col2 {
+    width: 15%;
+    align-self: flex-end;
+    text-align: end;
+}
+
+.col3 {
+    width: 15%;
+    text-align: end;
+}
+
+.colspan1 {
+    width: 70%;
+    text-indent: 3%;
+}
+
+.lonetext {
+    display: flex;
+    width: 100%;
+}
+
+.text {
+    width: 100%;
+    align-self: flex-end;
+    text-align: end;
+
+}
+
+
