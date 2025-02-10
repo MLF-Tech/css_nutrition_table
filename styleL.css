@@ -97,4 +97,32 @@ p {
 
 }
 
+.tab2 {
+    display: flex;
+    width: 100%;
+}
 
+.smallcol1 {
+    width: 40%;
+}
+
+.smallcol2 {
+    width: 20%;
+    align-self: center;
+    justify-content: flex-end;
+}
+.smallcol3 {
+    width: 20%;
+    align-self: center;
+    justify-content: flex-end;
+}
+.smallcol4 {
+    width: 20%;
+    align-self: center;
+    justify-content: flex-end;
+}
+
+.indentsmallcol1 {
+    width: 40%;
+    text-indent: 10px;
+}
